@@ -72,9 +72,6 @@ function draw()
             
             let y = (((ya-yb)/(xa-xb))*(x-xa))+ya;
             
-            print(x);
-            print(y);
-            
             switch(listOfShapes[index][0]){
                     case "square":
                         drawSquare(x, y, listOfShapes[i][1], listOfShapes[i][2]);
